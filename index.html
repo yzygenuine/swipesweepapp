@@ -195,6 +195,112 @@
             height: 24px;
         }
 
+        /* 新增截图展示区域样式 */
+        .screenshots-section {
+            margin-bottom: 80px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        .section-header h3 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .section-header p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .screenshots-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+        .screenshot-item {
+            flex: 0 0 calc(33.333% - 20px);
+            min-width: 280px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        @media (max-width: 1200px) {
+            .screenshot-item {
+                flex: 0 0 calc(50% - 15px);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .screenshots-grid {
+                gap: 20px;
+            }
+            
+            .screenshot-item {
+                flex: 0 0 100%;
+            }
+        }
+
+        .screenshot-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .screenshot-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .screenshot-caption {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .screenshot-caption h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+
+        .screenshot-caption p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .screenshots-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .section-header h3 {
+                font-size: 28px;
+            }
+            
+            .section-header p {
+                font-size: 16px;
+            }
+        }
+
         footer {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -357,6 +463,56 @@
                     <div class="feature-icon">⚡</div>
                     <h3>Batch Operations</h3>
                     <p>Efficiently manage multiple photos at once. Perfect for cleaning cluttered libraries and managing large video files quickly.</p>
+                </div>
+            </section>
+
+            <!-- 新增功能截图展示区域 -->
+            <section class="screenshots-section">
+                <div class="section-header">
+                    <h3>App Screenshots</h3>
+                    <p>See SwipeSweep in action with these feature demonstrations</p>
+                </div>
+                
+                <div class="screenshots-grid">
+                    <div class="screenshot-item">
+                        <img src="./pics/delete.jpg" alt="Delete photos with swipe left gesture">
+                        <div class="screenshot-caption">
+                            <h4>Delete Photos</h4>
+                            <p>Swipe left to quickly delete unwanted photos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="screenshot-item">
+                        <img src="./pics/keep.jpg" alt="Keep photos with swipe right gesture">
+                        <div class="screenshot-caption">
+                            <h4>Keep Photos</h4>
+                            <p>Swipe right to keep your favorite memories</p>
+                        </div>
+                    </div>
+                    
+                    <div class="screenshot-item">
+                        <img src="./pics/fav_new.jpg" alt="Mark photos as favorites">
+                        <div class="screenshot-caption">
+                            <h4>Favorite Photos</h4>
+                            <p>Swipe up to mark photos as favorites</p>
+                        </div>
+                    </div>
+                    
+                    <div class="screenshot-item">
+                        <img src="./pics/check_execute.jpg" alt="Review and execute photo operations">
+                        <div class="screenshot-caption">
+                            <h4>Review & Execute</h4>
+                            <p>Review your selections before applying changes</p>
+                        </div>
+                    </div>
+                    
+                    <div class="screenshot-item">
+                        <img src="./pics/stat.jpg" alt="View detailed statistics">
+                        <div class="screenshot-caption">
+                            <h4>Statistics</h4>
+                            <p>Track your progress and storage savings</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
