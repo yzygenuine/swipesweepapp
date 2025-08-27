@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeSweep FAQ - Common Questions About iOS Photo Management</title>
+    <meta name="description" content="Find answers to common questions about SwipeSweep photo cleaner app: privacy, safety, features, and troubleshooting for iOS photo management.">
+    <meta name="keywords" content="photo cleaner FAQ, iOS photo app questions, photo management help, SwipeSweep support, photo deletion safety">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .back-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .content h1 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+            margin: 30px 0 15px 0;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .content h2:first-of-type {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .content ul {
+            margin: 15px 0 15px 20px;
+            color: #4a5568;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .faq-item {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-item h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .contact-support {
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-support h2 {
+            color: #2d3748;
+            margin-bottom: 10px;
+            border: none;
+            padding: 0;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+        }
+
+        .faq-categories {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .faq-tab {
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .faq-tab.active,
+        .faq-tab:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .faq-section {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h1 {
+                font-size: 28px;
+            }
+
+            .content h2 {
+                font-size: 20px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .faq-categories {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="./pics/icon.png" alt="SwipeSweep app icon">
+                    </div>
+                    <h1>SwipeSweep</h1>
+                </a>
+                <a href="index.html" class="back-link">← Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <h1>Frequently Asked Questions</h1>
+                <p class="last-updated">Everything you need to know about SwipeSweep</p>
+                
+                <div class="faq-categories">
+                    <button class="faq-tab active" data-category="general">General</button>
+                    <button class="faq-tab" data-category="privacy">Privacy & Safety</button>
+                    <button class="faq-tab" data-category="features">Features</button>
+                    <button class="faq-tab" data-category="troubleshooting">Troubleshooting</button>
+                </div>
+                
+                <div class="faq-section" id="general">
+                    <h2>General Questions</h2>
+                    <article class="faq-item">
+                        <h3>What is SwipeSweep?</h3>
+                        <p>SwipeSweep is an iOS photo management app that uses intuitive swipe gestures to help you quickly organize and clean your photo library. Think of it as "Tinder for photos" - swipe left to delete, right to keep, and up to favorite.</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>How much storage space can I free up?</h3>
+                        <p>Users typically free up 2-8GB of storage space, with some users reclaiming over 15GB. The amount depends on your photo library size and how many duplicates, screenshots, and unwanted photos you have.</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>Is SwipeSweep free to use?</h3>
+                        <p>Yes, SwipeSweep is completely free to download and use. There are no hidden fees, subscriptions, or in-app purchases required.</p>
+                    </article>
+                </div>
+                
+                <div class="faq-section" id="privacy">
+                    <h2>Privacy & Safety</h2>
+                    <article class="faq-item">
+                        <h3>Is my data safe with SwipeSweep?</h3>
+                        <p>Absolutely. SwipeSweep processes all photos locally on your device. Your photos never leave your iPhone, and we don't collect, store, or transmit any of your personal data or images.</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>Can I recover deleted photos?</h3>
+                        <p>Yes! SwipeSweep includes an undo function for recent actions. Additionally, deleted photos go to your iPhone's "Recently Deleted" album where they can be recovered for 30 days.</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>What permissions does SwipeSweep need?</h3>
+                        <p>SwipeSweep only requires access to your photo library to function. We don't request access to your contacts, location, camera, or any other sensitive data.</p>
+                    </article>
+                </div>
+                
+                <div class="faq-section" id="features">
+                    <h2>Features</h2>
+                    <article class="faq-item">
+                        <h3>How do the swipe gestures work?</h3>
+                        <p>It's simple: swipe left to delete a photo, swipe right to keep it, and swipe up to mark it as a favorite. The gestures are designed to be intuitive and fast.</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>Can I select multiple photos at once?</h3>
+                        <p>Yes! SwipeSweep supports batch operations. You can select multiple photos and perform bulk actions like delete, keep, or favorite.</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>Does SwipeSweep detect duplicate photos?</h3>
+                        <p>Yes, SwipeSweep can identify and help you remove duplicate and similar photos, freeing up significant storage space.</p>
+                    </article>
+                </div>
+                
+                <div class="faq-section" id="troubleshooting">
+                    <h2>Troubleshooting</h2>
+                    <article class="faq-item">
+                        <h3>The app isn't showing my photos</h3>
+                        <p>Make sure you've granted SwipeSweep permission to access your photo library. Go to Settings > Privacy & Security > Photos and ensure SwipeSweep is set to "All Photos".</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>SwipeSweep is running slowly</h3>
+                        <p>If you have a very large photo library (10,000+ photos), the initial scan may take some time. Try restarting the app or your device if performance issues persist.</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>I accidentally deleted important photos</h3>
+                        <p>Don't panic! Check your iPhone's "Recently Deleted" album first. Photos stay there for 30 days. You can also use SwipeSweep's undo function if the deletion was recent.</p>
+                    </article>
+                </div>
+                
+                <section class="contact-support">
+                    <h2>Still Have Questions?</h2>
+                    <p>Can't find what you're looking for? Contact our support team:</p>
+                    <a href="mailto:support@swipesweep.com" class="contact-btn">Contact Support</a>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
