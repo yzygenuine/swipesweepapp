@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://swipesweepapp.com/sitemap.xml
+
+# 禁止抓取某些文件类型
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /CNAME
+Disallow: /app-ads.txt
+
+# 允许抓取图片
+Allow: /pics/

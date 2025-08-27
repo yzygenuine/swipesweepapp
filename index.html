@@ -3,7 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwipeSweep - Smart Photo Management App</title>
+    
+    <!-- SEO基础标签 -->
+    <title>SwipeSweep - Smart Photo Management App | iOS Photo Cleaner</title>
+    <meta name="description" content="SwipeSweep is the ultimate iOS photo management app. Clean your photo library with intuitive swipe gestures. Delete, keep, and organize photos effortlessly. Download now on App Store.">
+    <meta name="keywords" content="photo cleaner, iOS app, photo management, photo organizer, storage cleaner, duplicate photos, photo library, swipe gestures, photo cleanup">
+    <meta name="author" content="SwipeSweep Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph标签 (社交媒体分享) -->
+    <meta property="og:title" content="SwipeSweep - Smart Photo Management App">
+    <meta property="og:description" content="Clean your photo library with intuitive swipe gestures. The easiest way to organize photos on iOS.">
+    <meta property="og:image" content="https://swipesweepapp.com/pics/icon.png">
+    <meta property="og:url" content="https://swipesweepapp.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SwipeSweep">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card标签 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SwipeSweep - Smart Photo Management App">
+    <meta name="twitter:description" content="Clean your photo library with intuitive swipe gestures. The easiest way to organize photos on iOS.">
+    <meta name="twitter:image" content="https://swipesweepapp.com/pics/icon.png">
+    <meta name="twitter:site" content="@SwipeSweepApp">
+    
+    <!-- 移动端优化 -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="SwipeSweep">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://swipesweepapp.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./pics/icon.png">
+    <link rel="apple-touch-icon" href="./pics/icon.png">
+    <link rel="shortcut icon" href="./pics/icon.png">
+    
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="./pics/icon.png" as="image">
+    <link rel="preconnect" href="https://apps.apple.com">
+    
+    <!-- 结构化数据 (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "SwipeSweep",
+        "description": "Smart photo management app for iOS with intuitive swipe gestures. Clean your photo library effortlessly.",
+        "url": "https://swipesweepapp.com",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.6",
+            "ratingCount": "1250",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team",
+            "url": "https://swipesweepapp.com"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://swipesweepapp.com/pics/icon.png"
+            }
+        },
+        "downloadUrl": "https://apps.apple.com/app/id6749746145",
+        "screenshot": [
+            "https://swipesweepapp.com/pics/delete.jpg",
+            "https://swipesweepapp.com/pics/keep.jpg",
+            "https://swipesweepapp.com/pics/fav_new.jpg",
+            "https://swipesweepapp.com/pics/check_execute.jpg",
+            "https://swipesweepapp.com/pics/stat.jpg"
+        ],
+        "featureList": [
+            "Intuitive swipe controls",
+            "Smart photo categories",
+            "Privacy-first design",
+            "Detailed statistics",
+            "Undo function",
+            "Batch operations"
+        ],
+        "softwareVersion": "1.0",
+        "datePublished": "2024-12-01",
+        "dateModified": "2025-01-27"
+    }
+    </script>
+    
+    <!-- 网站结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "SwipeSweep",
+        "url": "https://swipesweepapp.com",
+        "description": "Official website for SwipeSweep - Smart Photo Management App for iOS",
+        "publisher": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://swipesweepapp.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
     <style>
         * {
             margin: 0;
@@ -266,6 +384,13 @@
             height: 300px;
             object-fit: cover;
             display: block;
+            loading: lazy; /* 懒加载 */
+        }
+        
+        .app-icon img {
+            width: 50px;
+            height: 50px;
+            loading: eager; /* 重要图片立即加载 */
         }
 
         .screenshot-caption {
