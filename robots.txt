@@ -8,7 +8,6 @@ Sitemap: https://swipesweepapp.com/sitemap.xml
 Disallow: /*.json$
 Disallow: /*.xml$
 Disallow: /CNAME
-Disallow: /app-ads.txt
 
 # 允许抓取图片
 Allow: /pics/
