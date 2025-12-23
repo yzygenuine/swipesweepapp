@@ -173,6 +173,8 @@
             display: flex;
             align-items: center;
             gap: 12px;
+            text-decoration: none;
+            color: inherit;
         }
 
         .app-icon {
@@ -188,6 +190,14 @@
             font-weight: bold;
         }
 
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+            display: block;
+        }
+
         .logo h1 {
             font-size: 28px;
             font-weight: 700;
@@ -198,6 +208,32 @@
             font-size: 14px;
             color: #666;
             margin-top: 2px;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
         }
 
         main {
@@ -394,13 +430,6 @@
             height: 300px;
             object-fit: cover;
             display: block;
-            loading: lazy; /* 懒加载 */
-        }
-        
-        .app-icon img {
-            width: 50px;
-            height: 50px;
-            loading: eager; /* 重要图片立即加载 */
         }
 
         .screenshot-caption {
@@ -521,6 +550,11 @@
                 flex-direction: column;
                 gap: 10px;
             }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -528,14 +562,17 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <div class="logo">
+                <a href="./index.html" class="logo">
                     <div class="app-icon">
-                        <img src="./pics/icon.png" alt="app icon">
+                        <img src="./pics/icon.png" alt="SwipeSweep app icon" loading="eager" decoding="async">
                     </div>
                     <div>
                         <h1>SwipeSweep</h1>
                         <div class="tagline">Photo Cleaner Tools</div>
                     </div>
+                </a>
+                <div class="header-actions">
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">Download on the App Store</a>
                 </div>
             </div>
         </div>
@@ -614,7 +651,7 @@
                 
                 <div class="screenshots-grid">
                     <div class="screenshot-item">
-                        <img src="./pics/delete.jpg" alt="Delete photos with swipe left gesture">
+                        <img src="./pics/delete.jpg" alt="Delete photos with swipe left gesture" loading="lazy" decoding="async">
                         <div class="screenshot-caption">
                             <h4>Delete Photos</h4>
                             <p>Swipe left to quickly delete unwanted photos</p>
@@ -622,7 +659,7 @@
                     </div>
                     
                     <div class="screenshot-item">
-                        <img src="./pics/keep.jpg" alt="Keep photos with swipe right gesture">
+                        <img src="./pics/keep.jpg" alt="Keep photos with swipe right gesture" loading="lazy" decoding="async">
                         <div class="screenshot-caption">
                             <h4>Keep Photos</h4>
                             <p>Swipe right to keep your favorite memories</p>
@@ -630,7 +667,7 @@
                     </div>
                     
                     <div class="screenshot-item">
-                        <img src="./pics/fav_new.jpg" alt="Mark photos as favorites">
+                        <img src="./pics/fav_new.jpg" alt="Mark photos as favorites" loading="lazy" decoding="async">
                         <div class="screenshot-caption">
                             <h4>Favorite Photos</h4>
                             <p>Swipe up to mark photos as favorites</p>
@@ -638,7 +675,7 @@
                     </div>
                     
                     <div class="screenshot-item">
-                        <img src="./pics/check_execute.jpg" alt="Review and execute photo operations">
+                        <img src="./pics/check_execute.jpg" alt="Review and execute photo operations" loading="lazy" decoding="async">
                         <div class="screenshot-caption">
                             <h4>Review & Execute</h4>
                             <p>Review your selections before applying changes</p>
@@ -646,7 +683,7 @@
                     </div>
                     
                     <div class="screenshot-item">
-                        <img src="./pics/stat.jpg" alt="View detailed statistics">
+                        <img src="./pics/stat.jpg" alt="View detailed statistics" loading="lazy" decoding="async">
                         <div class="screenshot-caption">
                             <h4>Statistics</h4>
                             <p>Track your progress and storage savings</p>

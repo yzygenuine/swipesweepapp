@@ -88,6 +88,32 @@
             background: rgba(102, 126, 234, 0.1);
         }
 
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
         main {
             padding: 40px 0;
         }
@@ -240,6 +266,12 @@
                 gap: 10px;
             }
 
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
             .faq-categories {
                 justify-content: center;
             }
@@ -256,7 +288,10 @@
                     </div>
                     <h1>SwipeSweep</h1>
                 </a>
-                <a href="index.html" class="back-link">← Back to Home</a>
+                <div class="header-actions">
+                    <a href="index.html" class="back-link">← Back to Home</a>
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">Download</a>
+                </div>
             </div>
         </div>
     </header>
