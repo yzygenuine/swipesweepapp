@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeSweep - แอปจัดการรูปภาพอัจฉริยะ | ตัวล้างรูปภาพบน iOS</title>
+    <meta name="description" content="SwipeSweep คือแอปจัดการรูปภาพบน iOS ที่ช่วยทำความสะอาดคลังรูปด้วยการปัดที่ใช้งานง่าย ลบ เก็บ และจัดระเบียบรูปได้อย่างรวดเร็ว ดาวน์โหลดได้แล้วบน App Store">
+    <meta name="keywords" content="แอปล้างรูป, แอป iOS, จัดการรูปภาพ, จัดระเบียบรูป, ล้างพื้นที่จัดเก็บ, รูปซ้ำ, คลังรูป, ท่าทางปัด, ทำความสะอาดรูป,swipewipe">
+    <meta name="author" content="SwipeSweep Team">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="SwipeSweep - แอปจัดการรูปภาพอัจฉริยะ">
+    <meta property="og:description" content="ทำความสะอาดคลังรูปด้วยการปัดที่ใช้งานง่าย วิธีที่ง่ายที่สุดในการจัดระเบียบรูปบน iOS">
+    <meta property="og:image" content="https://swipesweep.com/pics/icon.png">
+    <meta property="og:url" content="https://swipesweep.com/th/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SwipeSweep">
+    <meta property="og:locale" content="th_TH">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SwipeSweep - แอปจัดการรูปภาพอัจฉริยะ">
+    <meta name="twitter:description" content="ทำความสะอาดคลังรูปด้วยการปัดที่ใช้งานง่าย วิธีที่ง่ายที่สุดในการจัดระเบียบรูปบน iOS">
+    <meta name="twitter:image" content="https://swipesweep.com/pics/icon.png">
+    <meta name="twitter:site" content="@SwipeSweepApp">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="SwipeSweep">
+
+    <link rel="canonical" href="https://swipesweep.com/th/">
+    <link rel="alternate" hreflang="en" href="https://swipesweep.com/">
+    <link rel="alternate" hreflang="es" href="https://swipesweep.com/es/">
+    <link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/">
+    <link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/">
+    <link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/">
+    <link rel="alternate" hreflang="id" href="https://swipesweep.com/id/">
+    <link rel="alternate" hreflang="th" href="https://swipesweep.com/th/">
+    <link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/">
+    <link rel="alternate" hreflang="x-default" href="https://swipesweep.com/">
+
+    <link rel="icon" type="image/png" href="../pics/icon.png">
+    <link rel="apple-touch-icon" href="../pics/icon.png">
+    <link rel="shortcut icon" href="../pics/icon.png">
+
+    <link rel="preload" href="../pics/icon.png" as="image">
+    <link rel="preconnect" href="https://apps.apple.com">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-99T8HCKN9K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-99T8HCKN9K');
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "SwipeSweep",
+        "description": "แอปจัดการรูปภาพอัจฉริยะสำหรับ iOS ด้วยท่าทางปัดที่ใช้งานง่าย ทำความสะอาดคลังรูปได้อย่างรวดเร็ว",
+        "url": "https://swipesweep.com/th/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.6",
+            "ratingCount": "1250",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team",
+            "url": "https://swipesweep.com"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://swipesweep.com/pics/icon.png"
+            }
+        },
+        "downloadUrl": "https://apps.apple.com/app/id6749746145",
+        "screenshot": [
+            "https://swipesweep.com/pics/th/delete.jpg",
+            "https://swipesweep.com/pics/th/keep.jpg",
+            "https://swipesweep.com/pics/th/fav_new.jpg",
+            "https://swipesweep.com/pics/th/check_execute.jpg",
+            "https://swipesweep.com/pics/stat.jpg"
+        ],
+        "featureList": [
+            "การปัดที่ใช้งานง่าย",
+            "หมวดหมู่รูปอัจฉริยะ",
+            "เน้นความเป็นส่วนตัว",
+            "สถิติโดยละเอียด",
+            "เลิกทำได้",
+            "การทำงานเป็นชุด"
+        ],
+        "softwareVersion": "1.0",
+        "datePublished": "2024-12-01",
+        "dateModified": "2026-01-06"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "SwipeSweep",
+        "url": "https://swipesweep.com",
+        "description": "เว็บไซต์ทางการของ SwipeSweep - แอปจัดการรูปภาพอัจฉริยะบน iOS",
+        "publisher": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://swipesweep.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .logo h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .header-download {
+            background: #000;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-2px);
+        }
+
+        main {
+            padding: 60px 0;
+        }
+
+        .hero {
+            text-align: center;
+            color: white;
+            margin-bottom: 80px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.95;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .stat-item {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .screenshots-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            padding: 60px 40px;
+            margin-bottom: 80px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-header h3 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .section-header p {
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .screenshots-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .screenshot-item {
+            text-align: center;
+            background: rgba(102, 126, 234, 0.05);
+            padding: 25px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .screenshot-item:hover {
+            background: rgba(102, 126, 234, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .screenshot-item img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            margin-bottom: 20px;
+        }
+
+        .screenshot-caption h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+
+        .screenshot-caption p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .download-section {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 60px 40px;
+            border-radius: 30px;
+            backdrop-filter: blur(10px);
+            color: white;
+        }
+
+        .download-section h3 {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .download-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            opacity: 0.95;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .download-buttons img {
+            transition: transform 0.3s ease;
+        }
+
+        .download-buttons img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 40px 0 20px;
+            color: white;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h4 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            line-height: 2;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            opacity: 0.7;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 36px;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+
+            .screenshots-section {
+                padding: 40px 20px;
+            }
+
+            .screenshots-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="./index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="../pics/icon.png" alt="ไอคอนแอป SwipeSweep" loading="eager" decoding="async">
+                    </div>
+                    <div>
+                        <h1>SwipeSweep</h1>
+                        <div class="tagline">แอปล้างรูปภาพฟรี</div>
+                    </div>
+                </a>
+                <div class="header-actions">
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">ดาวน์โหลดบน App Store</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h2>ทำความสะอาดคลังรูปของคุณด้วยการปัดครั้งเดียว</h2>
+                <p>จัดระเบียบคลังรูปด้วยท่าทางการปัดที่ง่าย SwipeSweep ทำให้การจัดการรูปเป็นเรื่องง่ายและสนุกด้วยการควบคุมแบบ Tinder</p>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">ทั่วโลก</div>
+                        <div class="stat-label">ในกว่า 100 ประเทศ</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4.8★</div>
+                        <div class="stat-label">คะแนน App Store</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1GB+</div>
+                        <div class="stat-label">ประหยัดพื้นที่เฉลี่ย</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">👆</div>
+                    <h3>การปัดที่ใช้งานง่าย</h3>
+                    <p>ท่าทางง่ายๆ: ปัดซ้ายเพื่อลบ ปัดขวาเพื่อเก็บ ปัดขึ้นเพื่อทำเป็นรายการโปรด เลื่อนดูรูปได้รวดเร็วด้วยอินเทอร์เฟซแบบ Tinder</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📂</div>
+                    <h3>หมวดหมู่อัจฉริยะ</h3>
+                    <p>จัดกลุ่มอัตโนมัติ: รูปล่าสุด ไฟล์ใหญ่ ภาพหน้าจอ ดาวน์โหลด และอื่นๆ เครื่องมือจัดระเบียบครบในปลายนิ้ว</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>ความเป็นส่วนตัวมาก่อน</h3>
+                    <p>ประมวลผลทั้งหมดบนอุปกรณ์ รูปของคุณไม่เคยออกจากเครื่อง: ไม่อัปโหลดขึ้นคลาวด์ ไม่เก็บข้อมูล</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>สถิติโดยละเอียด</h3>
+                    <p>ติดตามจำนวนรูปที่ลบและพื้นที่ที่ประหยัดได้แบบเรียลไทม์ ดูว่าคุณได้พื้นที่กลับคืนมาเท่าไร</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">↩️</div>
+                    <h3>เลิกทำได้</h3>
+                    <p>ลบพลาดใช่ไหม? ย้อนกลับการกระทำล่าสุดด้วยปุ่มเลิกทำ จัดการรูปได้อย่างสบายใจ</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>การทำงานเป็นชุด</h3>
+                    <p>จัดการหลายรูปพร้อมกันได้อย่างรวดเร็ว เหมาะสำหรับทำความสะอาดคลังรูปที่ยุ่งเหยิงและจัดการวิดีโอขนาดใหญ่</p>
+                </div>
+            </section>
+
+            <section class="screenshots-section">
+                <div class="section-header">
+                    <h3>ภาพหน้าจอแอป</h3>
+                    <p>ดูการทำงานของ SwipeSweep ผ่านตัวอย่างฟีเจอร์ต่างๆ</p>
+                </div>
+
+                <div class="screenshots-grid">
+                    <div class="screenshot-item">
+                        <img src="../pics/th/delete.jpg" alt="ลบรูปด้วยการปัดซ้าย" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>ลบ</h4>
+                            <p>ปัดซ้ายเพื่อลบรูปที่ไม่ต้องการอย่างรวดเร็ว</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <img src="../pics/th/keep.jpg" alt="เก็บรูปด้วยการปัดขวา" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>เก็บ</h4>
+                            <p>ปัดขวาเพื่อเก็บช่วงเวลาที่คุณชอบ</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <img src="../pics/th/fav_new.jpg" alt="ทำเครื่องหมายรูปเป็นรายการโปรด" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>รายการโปรด</h4>
+                            <p>ปัดขึ้นเพื่อทำเครื่องหมายรูปเป็นรายการโปรด</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <img src="../pics/th/check_execute.jpg" alt="ตรวจสอบและดำเนินการ" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>ตรวจสอบและทำ</h4>
+                            <p>ตรวจสอบการเลือกของคุณก่อนนำการเปลี่ยนแปลงไปใช้</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <img src="../pics/stat.jpg" alt="ดูสถิติโดยละเอียด" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>สถิติ</h4>
+                            <p>ติดตามความคืบหน้าและการประหยัดพื้นที่</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="download-section">
+                <h3>เปลี่ยนคลังรูปของคุณภายในไม่กี่นาที</h3>
+                <p>เหมาะสำหรับทำความสะอาดคลังรูปที่ยุ่งเหยิง ปลดล็อกพื้นที่ จัดระเบียบภาพหน้าจอ และจัดการวิดีโอขนาดใหญ่ ใช้งานได้เฉพาะบน iOS</p>
+                <div class="download-buttons">
+                    <a href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">
+                        <img src="../pics/appstore.png" alt="ดาวน์โหลดบน App Store" style="height: 120px;">
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ผลิตภัณฑ์</h4>
+                    <p><a href="https://apps.apple.com/app/id6749746145">ดาวน์โหลด</a></p>
+                    <p><a href="./features.html">คุณสมบัติ</a></p>
+                    <p><a href="./guide.html">อ่านคู่มือผู้ใช้</a></p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>กฎหมายและนโยบาย</h4>
+                    <p><a href="../privacy_policy.html">นโยบายความเป็นส่วนตัว</a></p>
+                    <p><a href="../terms_of_service.html">ข้อกำหนดการให้บริการ</a></p>
+                    <p><a href="../SubscriptionTerms.html">ข้อกำหนดการสมัครสมาชิก</a></p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>ติดต่อ</h4>
+                    <p><a href="./faq.html">คำถามที่พบบ่อย</a></p>
+                    <p><a href="./about.html">เกี่ยวกับ</a></p>
+                    <p>swipesweepapp@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 SwipeSweep. สงวนลิขสิทธิ์</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

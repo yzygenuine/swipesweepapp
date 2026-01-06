@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeSweep Kullanım Kılavuzu - Fotoğraf Arşivinizi Nasıl Temizlersiniz | iOS Eğitimi</title>
+    <meta name="description" content="SwipeSweep’in kapsamlı eğitimi: iOS fotoğraf arşivinizi verimli şekilde temizlemeyi, kaydırma hareketleriyle düzenlemeyi ve depolama alanı kazanmayı öğrenin.">
+    <meta name="keywords" content="fotoğraf temizleyici eğitimi, iOS fotoğraf kılavuzu, fotoğraf nasıl düzenlenir, fotoğraf arşivi temizliği, depolama alanı kazanma">
+    <link rel="canonical" href="https://swipesweep.com/tr/guide.html">
+    <link rel="alternate" hreflang="en" href="https://swipesweep.com/guide.html">
+    <link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html">
+    <link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html">
+    <link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html">
+    <link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html">
+    <link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html">
+    <link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html">
+    <link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html">
+    <link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .back-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .content h1 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .guide-step {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .guide-step:last-child {
+            border-bottom: none;
+        }
+
+        .guide-step h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+            margin: 30px 0 15px 0;
+        }
+
+        .step-content {
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
+
+        .step-content img {
+            width: 200px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            flex-shrink: 0;
+        }
+
+        .step-text h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 12px;
+        }
+
+        .step-text p {
+            margin-bottom: 12px;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .step-text ol {
+            margin: 15px 0 15px 20px;
+            color: #4a5568;
+        }
+
+        .step-text li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .tip {
+            background: rgba(102, 126, 234, 0.1);
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 15px;
+            color: #4a5568;
+        }
+
+        .gesture-demo {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .gesture-item {
+            flex: 1;
+            min-width: 200px;
+            background: rgba(102, 126, 234, 0.05);
+            border: 1px solid rgba(102, 126, 234, 0.15);
+            border-radius: 16px;
+            padding: 18px;
+            text-align: center;
+        }
+
+        .gesture-icon {
+            font-size: 28px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .gesture-item h4 {
+            color: #2d3748;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .gesture-item p {
+            color: #4a5568;
+            font-size: 14px;
+        }
+
+        .best-practices {
+            margin-top: 30px;
+        }
+
+        .practice-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .practice-item {
+            background: rgba(102, 126, 234, 0.05);
+            border: 1px solid rgba(102, 126, 234, 0.15);
+            border-radius: 16px;
+            padding: 18px;
+        }
+
+        .practice-item h3 {
+            color: #2d3748;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .practice-item p {
+            color: #4a5568;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h1 {
+                font-size: 28px;
+            }
+
+            .guide-step h2 {
+                font-size: 20px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .step-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .step-content img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="../pics/icon.png" alt="SwipeSweep uygulama simgesi">
+                    </div>
+                    <h1>SwipeSweep</h1>
+                </a>
+                <div class="header-actions">
+                    <a href="index.html" class="back-link">← Ana sayfaya dön</a>
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">İndir</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <h1>SwipeSweep Kullanıcı Kılavuzu</h1>
+                <p class="last-updated">5 dakikada fotoğraf yönetiminde ustalaşın</p>
+
+                <article class="guide-step">
+                    <h2>Adım 1: Başlarken</h2>
+                    <div class="step-content">
+                        <img src="../pics/tr/delete.jpg" alt="SwipeSweep uygulama arayüzü">
+                        <div class="step-text">
+                            <h3>İndir ve kur</h3>
+                            <ol>
+                                <li>SwipeSweep’i App Store’dan indirin</li>
+                                <li>Fotoğraf arşivine erişim izni verin</li>
+                                <li>İstediğiniz fotoğraf kategorisini seçin</li>
+                                <li>İlk fotoğraf inceleme oturumunuzu başlatın</li>
+                            </ol>
+                            <div class="tip">
+                                <strong>İpucu:</strong> En iyi deneyim için “En Yeni Fotoğraflar” ile başlayın
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="guide-step">
+                    <h2>Adım 2: Kaydırma hareketlerini öğrenin</h2>
+                    <div class="gesture-demo">
+                        <div class="gesture-item">
+                            <span class="gesture-icon">👈</span>
+                            <h4>Sola kaydır</h4>
+                            <p>İstenmeyen fotoğrafları sil</p>
+                        </div>
+                        <div class="gesture-item">
+                            <span class="gesture-icon">👉</span>
+                            <h4>Sağa kaydır</h4>
+                            <p>Değerli anları koru</p>
+                        </div>
+                        <div class="gesture-item">
+                            <span class="gesture-icon">👆</span>
+                            <h4>Yukarı kaydır</h4>
+                            <p>Favori olarak işaretle</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="guide-step">
+                    <h2>Adım 3: Gelişmiş özellikler</h2>
+                    <ul>
+                        <li><strong>Toplu işlemler:</strong> aynı anda işlem yapmak için birden fazla fotoğraf seçin</li>
+                        <li><strong>Geri alma:</strong> yanlışlıkla yapılan silmeleri geri alın</li>
+                        <li><strong>İstatistik takibi:</strong> temizlik ilerlemesini takip edin</li>
+                        <li><strong>Akıllı kategoriler:</strong> belirli fotoğraf türlerine odaklanın</li>
+                    </ul>
+                </article>
+
+                <article class="best-practices">
+                    <h2>Fotoğraf yönetimi için en iyi uygulamalar</h2>
+                    <div class="practice-grid">
+                        <div class="practice-item">
+                            <h3>Haftalık temizlik</h3>
+                            <p>Her hafta 10 dakika ayırıp en yeni fotoğrafları gözden geçirin</p>
+                        </div>
+                        <div class="practice-item">
+                            <h3>Ekran görüntülerinden başlayın</h3>
+                            <p>Ekran görüntüleri genellikle silinmesi en kolay olanlardır</p>
+                        </div>
+                        <div class="practice-item">
+                            <h3>Büyük dosyaları gözden geçirin</h3>
+                            <p>Videolar ve yüksek çözünürlüklü fotoğraflar en çok alanı kaplar</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

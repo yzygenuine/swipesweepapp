@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำถามที่พบบ่อย SwipeSweep - คำตอบและการช่วยเหลือ | แอปล้างรูป iOS</title>
+    <meta name="description" content="คำถามที่พบบ่อยเกี่ยวกับ SwipeSweep: วิธีการทำงาน ความเป็นส่วนตัว การคืนรูป ฟีเจอร์ และการแก้ปัญหา สำหรับแอปจัดการรูปบน iOS">
+    <meta name="keywords" content="FAQ แอปล้างรูป, คำถาม iOS, ความเป็นส่วนตัวรูป, คืนรูปที่ลบ, วิธีใช้ gesture swipe, แก้ปัญหาแอปรูป">
+    <link rel="canonical" href="https://swipesweep.com/th/faq.html">
+    <link rel="alternate" hreflang="en" href="https://swipesweep.com/faq.html">
+    <link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html">
+    <link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html">
+    <link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html">
+    <link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html">
+    <link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html">
+    <link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html">
+    <link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html">
+    <link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .back-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .content h1 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+            margin: 30px 0 15px 0;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .content h2:first-of-type {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .faq-item {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-item h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .contact-support {
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-support h2 {
+            color: #2d3748;
+            margin-bottom: 10px;
+            border: none;
+            padding: 0;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+        }
+
+        .faq-categories {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .faq-tab {
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .faq-tab.active,
+        .faq-tab:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .faq-section {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h1 {
+                font-size: 28px;
+            }
+
+            .content h2 {
+                font-size: 20px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="../pics/icon.png" alt="ไอคอนแอป SwipeSweep">
+                    </div>
+                    <h1>SwipeSweep</h1>
+                </a>
+                <div class="header-actions">
+                    <a href="index.html" class="back-link">← กลับไปหน้าแรก</a>
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">ดาวน์โหลด</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <h1>คำถามที่พบบ่อย</h1>
+                <p class="last-updated">ทุกสิ่งที่คุณควรรู้เกี่ยวกับ SwipeSweep</p>
+
+                <div class="faq-categories">
+                    <button class="faq-tab active" data-category="general">ทั่วไป</button>
+                    <button class="faq-tab" data-category="privacy">ความเป็นส่วนตัวและความปลอดภัย</button>
+                    <button class="faq-tab" data-category="features">ฟีเจอร์</button>
+                    <button class="faq-tab" data-category="troubleshooting">การแก้ปัญหา</button>
+                </div>
+
+                <div class="faq-section" id="general">
+                    <h2>คำถามทั่วไป</h2>
+                    <article class="faq-item">
+                        <h3>SwipeSweep คืออะไร?</h3>
+                        <p>SwipeSweep คือแอปจัดการรูปบน iOS ที่ใช้การปัดแบบเข้าใจง่ายเพื่อช่วยให้คุณจัดระเบียบและทำความสะอาดคลังรูปได้อย่างรวดเร็ว เปรียบเหมือน “Tinder สำหรับรูป”: ปัดซ้ายเพื่อลบ ปัดขวาเพื่อเก็บ และปัดขึ้นเพื่อทำเป็นรายการโปรด</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>สามารถคืนพื้นที่ได้มากแค่ไหน?</h3>
+                        <p>โดยทั่วไปผู้ใช้สามารถคืนพื้นที่ได้ประมาณ 2–8GB และบางคนอาจได้มากกว่า 15GB ขึ้นอยู่กับขนาดคลังรูป จำนวนรูปซ้ำ ภาพหน้าจอ และรูปที่ไม่ต้องการ</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>SwipeSweep ฟรีไหม?</h3>
+                        <p>ฟรี ใช้งานและดาวน์โหลดได้ฟรีทั้งหมด ไม่มีค่าใช้จ่ายแอบแฝง ไม่มีสมัครสมาชิก และไม่มีการซื้อในแอป</p>
+                    </article>
+                </div>
+
+                <div class="faq-section" id="privacy">
+                    <h2>ความเป็นส่วนตัวและความปลอดภัย</h2>
+                    <article class="faq-item">
+                        <h3>ข้อมูลของฉันปลอดภัยไหม?</h3>
+                        <p>ปลอดภัยแน่นอน SwipeSweep ประมวลผลรูปทั้งหมดบนอุปกรณ์ของคุณ รูปจะไม่ออกจาก iPhone และเราไม่เก็บ ไม่จัดเก็บ หรือส่งข้อมูลส่วนตัวหรือรูปภาพ</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>กู้คืนรูปที่ลบได้ไหม?</h3>
+                        <p>ได้ SwipeSweep มีฟีเจอร์เลิกทำสำหรับการกระทำล่าสุด และรูปที่ลบจะไปอยู่ในอัลบั้ม “เพิ่งลบ” บน iPhone ซึ่งสามารถกู้คืนได้ภายใน 30 วัน</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>SwipeSweep ต้องขอสิทธิ์อะไรบ้าง?</h3>
+                        <p>SwipeSweep ต้องการเพียงการเข้าถึงคลังรูปเพื่อทำงาน เราไม่ขอสิทธิ์เข้าถึงรายชื่อ ตำแหน่ง กล้อง หรือข้อมูลอ่อนไหวอื่นๆ</p>
+                    </article>
+                </div>
+
+                <div class="faq-section" id="features">
+                    <h2>ฟีเจอร์</h2>
+                    <article class="faq-item">
+                        <h3>การปัดทำงานอย่างไร?</h3>
+                        <p>ง่ายมาก: ปัดซ้ายเพื่อลบ ปัดขวาเพื่อเก็บ และปัดขึ้นเพื่อทำเป็นรายการโปรด ท่าทางถูกออกแบบให้ใช้งานได้รวดเร็วและเป็นธรรมชาติ</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>เลือกหลายรูปพร้อมกันได้ไหม?</h3>
+                        <p>ได้ SwipeSweep รองรับการทำงานเป็นชุด คุณสามารถเลือกรูปหลายรูปและทำการลบ เก็บ หรือทำเป็นรายการโปรดพร้อมกันได้</p>
+                    </article>
+                </div>
+
+                <div class="faq-section" id="troubleshooting">
+                    <h2>การแก้ปัญหา</h2>
+                    <article class="faq-item">
+                        <h3>แอปไม่แสดงรูปของฉัน</h3>
+                        <p>ตรวจสอบว่าได้อนุญาตการเข้าถึงรูปสำหรับ SwipeSweep แล้ว ไปที่ การตั้งค่า &gt; ความเป็นส่วนตัวและความปลอดภัย &gt; รูปภาพ และตั้งค่า SwipeSweep เป็น “รูปภาพทั้งหมด”</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>SwipeSweep ทำงานช้า</h3>
+                        <p>หากคลังรูปของคุณใหญ่มาก (10,000+ รูป) การสแกนครั้งแรกอาจใช้เวลา ลองปิดแล้วเปิดแอปใหม่หรือรีสตาร์ทเครื่องหากยังมีปัญหา</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>ฉันเผลอลบรูปสำคัญ</h3>
+                        <p>ไม่ต้องกังวล ตรวจสอบอัลบั้ม “เพิ่งลบ” บน iPhone เพราะรูปยังอยู่ได้ 30 วัน และคุณยังใช้ฟีเจอร์เลิกทำของ SwipeSweep ได้หากเพิ่งลบไปไม่นาน</p>
+                    </article>
+                </div>
+
+                <section class="contact-support">
+                    <h2>ยังมีคำถาม?</h2>
+                    <p>ไม่พบคำตอบที่ต้องการ? ติดต่อทีมซัพพอร์ตของเราได้ที่:</p>
+                    <a href="mailto:support@swipesweep.com" class="contact-btn">ติดต่อซัพพอร์ต</a>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const tabs = document.querySelectorAll('.faq-tab');
+        const sections = document.querySelectorAll('.faq-section');
+
+        tabs.forEach((tab) => {
+            tab.addEventListener('click', () => {
+                tabs.forEach((t) => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                const category = tab.dataset.category;
+
+                sections.forEach((section) => {
+                    section.style.display = section.id === category ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+

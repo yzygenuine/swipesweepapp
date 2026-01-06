@@ -10,6 +10,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
@@ -23,6 +27,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
@@ -36,6 +44,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
@@ -49,6 +61,78 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/fr/</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/id/</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/th/</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/tr/</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
@@ -62,6 +146,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
@@ -75,6 +163,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/"/>
@@ -88,6 +180,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
@@ -101,6 +197,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
@@ -114,6 +214,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
@@ -127,6 +231,78 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/fr/features.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/features.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/id/features.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/features.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/th/features.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/features.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/tr/features.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/features.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
@@ -140,6 +316,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
@@ -153,6 +333,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/features.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/features.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/features.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html"/>
@@ -167,6 +351,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
@@ -180,6 +368,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
@@ -193,6 +385,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
@@ -206,6 +402,78 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/fr/guide.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/id/guide.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/th/guide.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/tr/guide.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
@@ -219,6 +487,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
@@ -232,6 +504,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/guide.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/guide.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/guide.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/guide.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/guide.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/guide.html"/>
@@ -246,6 +522,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
@@ -259,6 +539,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
@@ -272,6 +556,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
@@ -285,6 +573,78 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/fr/faq.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/id/faq.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/th/faq.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/tr/faq.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
@@ -298,6 +658,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
@@ -311,6 +675,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html"/>
@@ -324,6 +692,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
@@ -337,6 +709,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
@@ -350,6 +726,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
@@ -363,6 +743,78 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/fr/about.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/about.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/id/about.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/about.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/th/about.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/about.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
+    </url>
+    <url>
+        <loc>https://swipesweep.com/tr/about.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://swipesweep.com/about.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
@@ -376,6 +828,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>
@@ -389,6 +845,10 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html"/>
         <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html"/>

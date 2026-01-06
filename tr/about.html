@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeSweep Hakkında - Ekibimiz ve misyonumuz | iOS Fotoğraf Yönetimi</title>
+    <meta name="description" content="SwipeSweep’i tanıyın: hikâyemiz, gizlilik odaklı misyonumuz ve iOS fotoğraf temizleyici uygulamasının arkasındaki ekip.">
+    <meta name="keywords" content="SwipeSweep hakkında, iOS uygulama ekibi, gizlilik misyonu, fotoğraf temizleyici, akıllı fotoğraf yönetimi">
+    <link rel="canonical" href="https://swipesweep.com/tr/about.html">
+    <link rel="alternate" hreflang="en" href="https://swipesweep.com/about.html">
+    <link rel="alternate" hreflang="es" href="https://swipesweep.com/es/about.html">
+    <link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/about.html">
+    <link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/about.html">
+    <link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/about.html">
+    <link rel="alternate" hreflang="id" href="https://swipesweep.com/id/about.html">
+    <link rel="alternate" hreflang="th" href="https://swipesweep.com/th/about.html">
+    <link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/about.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/about.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://swipesweep.com/about.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .back-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .content h1 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+            margin: 30px 0 15px 0;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .content h2:first-of-type {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .mission-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .mission-item {
+            background: rgba(102, 126, 234, 0.05);
+            border: 1px solid rgba(102, 126, 234, 0.15);
+            border-radius: 16px;
+            padding: 18px;
+        }
+
+        .mission-item h3 {
+            color: #2d3748;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .mission-item p {
+            color: #4a5568;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .team-member {
+            background: rgba(102, 126, 234, 0.05);
+            border: 1px solid rgba(102, 126, 234, 0.15);
+            border-radius: 16px;
+            padding: 18px;
+        }
+
+        .team-member h3 {
+            color: #2d3748;
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        .team-member p {
+            color: #4a5568;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+
+        .team-member p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .contact-item {
+            background: rgba(102, 126, 234, 0.05);
+            border: 1px solid rgba(102, 126, 234, 0.15);
+            border-radius: 16px;
+            padding: 18px;
+        }
+
+        .contact-item h3 {
+            color: #2d3748;
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+
+        .contact-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h1 {
+                font-size: 28px;
+            }
+
+            .content h2 {
+                font-size: 20px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="../pics/icon.png" alt="SwipeSweep uygulama simgesi">
+                    </div>
+                    <h1>SwipeSweep</h1>
+                </a>
+                <div class="header-actions">
+                    <a href="index.html" class="back-link">← Ana sayfaya dön</a>
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">İndir</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <h1>SwipeSweep Hakkında</h1>
+                <p class="last-updated">Fotoğraf yönetimini basitleştiriyoruz, her seferinde bir kaydırma</p>
+
+                <h2>Hikâyemiz</h2>
+                <p>SwipeSweep basit bir hayal kırıklığından doğdu: iPhone’da binlerce fotoğrafı yönetmek yorucu ve zaman alıcı. Geleneksel fotoğraf uygulamaları fotoğrafları düzenlemek için çok fazla dokunuş ve karmaşık arayüz gerektiriyor.</p>
+                <p>Şunu sorduk: “Fotoğrafları düzenlemek kaydırmak kadar kolay ve sezgisel olsaydı?” Bu soru, Tinder tarzı kaydırma hareketlerini kullanan SwipeSweep’in doğmasına yol açtı.</p>
+                <p>2024’teki lansmandan bu yana SwipeSweep, birçok kullanıcının cihazlarında önemli ölçüde depolama alanı geri kazanmasına yardımcı oldu.</p>
+
+                <h2>Misyonumuz</h2>
+                <div class="mission-grid">
+                    <div class="mission-item">
+                        <h3>Önce basitlik</h3>
+                        <p>Fotoğraf yönetiminin karmaşık değil, sezgisel olması gerektiğine inanıyoruz. Her özellik, sadeliği öncelik alacak şekilde tasarlanır.</p>
+                    </div>
+                    <div class="mission-item">
+                        <h3>Gizlilik odaklı</h3>
+                        <p>Fotoğraflarınız özeldir. Bu yüzden tüm işlem cihazınızda gerçekleşir: buluta yükleme yok, veri toplama yok.</p>
+                    </div>
+                    <div class="mission-item">
+                        <h3>Hız ve verimlilik</h3>
+                        <p>Daha kısa sürede daha fazlasını başarmanızı istiyoruz. Her etkileşim hız için optimize edilmiştir.</p>
+                    </div>
+                </div>
+
+                <h2>Ekiple tanışın</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <h3>Jin</h3>
+                        <p>Kurucu ve baş geliştirici</p>
+                        <p>8 yıllık iOS geliştirme deneyimine sahip eski Apple mühendisi.</p>
+                    </div>
+                    <div class="team-member">
+                        <h3>Yuki</h3>
+                        <p>UX/UI tasarımcısı</p>
+                        <p>Sezgisel mobil deneyimlere odaklanan tasarım uzmanı.</p>
+                    </div>
+                </div>
+
+                <h2>Bize ulaşın</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h3>Destek e-postası</h3>
+                        <p><a href="mailto:swipesweepapp@gmail.com">swipesweepapp@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>İş birliği ve iş geliştirme</h3>
+                        <p><a href="mailto:swipesweepapp@gmail.com">swipesweepapp@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

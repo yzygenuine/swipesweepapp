@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeSweep - App intelligente de gestion de photos | Nettoyeur de photos iOS</title>
+    <meta name="description" content="SwipeSweep est l’app ultime de gestion de photos sur iOS. Nettoyez votre photothèque avec des gestes de swipe intuitifs. Supprimez, gardez et organisez vos photos facilement. Téléchargez maintenant sur l’App Store.">
+    <meta name="keywords" content="nettoyeur de photos, app iOS, gestion de photos, organisateur de photos, nettoyage de stockage, photos en double, photothèque, gestes de swipe, nettoyage de photos,swipewipe">
+    <meta name="author" content="SwipeSweep Team">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="SwipeSweep - App intelligente de gestion de photos">
+    <meta property="og:description" content="Nettoyez votre photothèque avec des gestes de swipe intuitifs. La façon la plus simple d’organiser vos photos sur iOS.">
+    <meta property="og:image" content="https://swipesweep.com/pics/icon.png">
+    <meta property="og:url" content="https://swipesweep.com/fr/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SwipeSweep">
+    <meta property="og:locale" content="fr_FR">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SwipeSweep - App intelligente de gestion de photos">
+    <meta name="twitter:description" content="Nettoyez votre photothèque avec des gestes de swipe intuitifs. La façon la plus simple d’organiser vos photos sur iOS.">
+    <meta name="twitter:image" content="https://swipesweep.com/pics/icon.png">
+    <meta name="twitter:site" content="@SwipeSweepApp">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="SwipeSweep">
+
+    <link rel="canonical" href="https://swipesweep.com/fr/">
+    <link rel="alternate" hreflang="en" href="https://swipesweep.com/">
+    <link rel="alternate" hreflang="es" href="https://swipesweep.com/es/">
+    <link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/">
+    <link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/">
+    <link rel="alternate" hreflang="fr" href="https://swipesweep.com/fr/">
+    <link rel="alternate" hreflang="id" href="https://swipesweep.com/id/">
+    <link rel="alternate" hreflang="th" href="https://swipesweep.com/th/">
+    <link rel="alternate" hreflang="tr" href="https://swipesweep.com/tr/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/">
+    <link rel="alternate" hreflang="x-default" href="https://swipesweep.com/">
+
+    <link rel="icon" type="image/png" href="../pics/icon.png">
+    <link rel="apple-touch-icon" href="../pics/icon.png">
+    <link rel="shortcut icon" href="../pics/icon.png">
+
+    <link rel="preload" href="../pics/icon.png" as="image">
+    <link rel="preconnect" href="https://apps.apple.com">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-99T8HCKN9K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-99T8HCKN9K');
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "SwipeSweep",
+        "description": "Application intelligente de gestion de photos pour iOS avec des gestes de swipe intuitifs. Nettoyez votre photothèque sans effort.",
+        "url": "https://swipesweep.com/fr/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.6",
+            "ratingCount": "1250",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team",
+            "url": "https://swipesweep.com"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://swipesweep.com/pics/icon.png"
+            }
+        },
+        "downloadUrl": "https://apps.apple.com/app/id6749746145",
+        "screenshot": [
+            "https://swipesweep.com/pics/fr/delete.jpg",
+            "https://swipesweep.com/pics/fr/keep.jpg",
+            "https://swipesweep.com/pics/fr/fav_new.jpg",
+            "https://swipesweep.com/pics/fr/check_execute.jpg",
+            "https://swipesweep.com/pics/stat.jpg"
+        ],
+        "featureList": [
+            "Contrôles de swipe intuitifs",
+            "Catégories de photos intelligentes",
+            "Conception axée sur la confidentialité",
+            "Statistiques détaillées",
+            "Fonction d’annulation",
+            "Opérations par lots"
+        ],
+        "softwareVersion": "1.0",
+        "datePublished": "2024-12-01",
+        "dateModified": "2026-01-06"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "SwipeSweep",
+        "url": "https://swipesweep.com",
+        "description": "Site officiel de SwipeSweep - App intelligente de gestion de photos pour iOS",
+        "publisher": {
+            "@type": "Organization",
+            "name": "SwipeSweep Team"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://swipesweep.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .logo h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
+        main {
+            padding: 60px 0;
+        }
+
+        .hero {
+            text-align: center;
+            color: white;
+            margin-bottom: 80px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 20px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 20px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+        }
+
+        .feature-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+
+        .feature-card p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .download-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 60px 40px;
+            text-align: center;
+            margin-bottom: 80px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .download-section h3 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #2d3748;
+        }
+
+        .download-section p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .download-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #000;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .download-btn:hover {
+            background: #333;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .download-btn img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .screenshots-section {
+            margin-bottom: 80px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        .section-header h3 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .section-header p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .screenshots-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .screenshot-item {
+            flex: 0 0 calc(33.333% - 20px);
+            min-width: 280px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        @media (max-width: 1200px) {
+            .screenshot-item {
+                flex: 0 0 calc(50% - 15px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .screenshots-grid {
+                gap: 20px;
+            }
+
+            .screenshot-item {
+                flex: 0 0 100%;
+            }
+        }
+
+        .screenshot-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .screenshot-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .screenshot-caption {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .screenshot-caption h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+
+        .screenshot-caption p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .screenshots-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .section-header h3 {
+                font-size: 28px;
+            }
+
+            .section-header p {
+                font-size: 16px;
+            }
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+
+        .footer-section p, .footer-section a {
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .footer-section a:hover {
+            color: #667eea;
+        }
+
+        .copyright {
+            color: #999;
+            font-size: 14px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            color: white;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .download-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .download-btn {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="./index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="../pics/icon.png" alt="Icône de l’app SwipeSweep" loading="eager" decoding="async">
+                    </div>
+                    <div>
+                        <h1>SwipeSweep</h1>
+                        <div class="tagline">Application gratuite de nettoyage de photos</div>
+                    </div>
+                </a>
+                <div class="header-actions">
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">Télécharger sur l’App Store</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h2>Nettoyez votre photothèque d’un simple swipe</h2>
+                <p>Organisez rapidement votre photothèque avec de simples gestes de swipe. SwipeSweep rend la gestion des photos facile et agréable grâce à des contrôles intuitifs façon Tinder.</p>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">Dans le monde</div>
+                        <div class="stat-label">Plus de 100 pays</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4.8★</div>
+                        <div class="stat-label">Note App Store</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1GB+</div>
+                        <div class="stat-label">Espace moyen libéré</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">👆</div>
+                    <h3>Contrôles de swipe intuitifs</h3>
+                    <p>Gestes simples : swipe à gauche pour supprimer, à droite pour garder, vers le haut pour mettre en favori. Parcours ultra-rapide avec une interface façon Tinder.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📂</div>
+                    <h3>Catégories intelligentes</h3>
+                    <p>Organisez automatiquement les photos récentes, les gros fichiers, les captures d’écran, les téléchargements, et plus encore. Des outils complets à portée de main.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Confidentialité avant tout</h3>
+                    <p>Tout se passe localement sur votre appareil. Vos photos ne quittent jamais votre iPhone : pas d’upload cloud, pas de collecte de données.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Statistiques détaillées</h3>
+                    <p>Suivez en temps réel les suppressions et l’espace libéré. Voyez exactement combien de stockage vous avez récupéré.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">↩️</div>
+                    <h3>Fonction d’annulation</h3>
+                    <p>Une erreur ? Revenez en arrière facilement grâce à l’annulation intégrée. Gérez vos photos sans stress.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Opérations par lots</h3>
+                    <p>Gérez efficacement plusieurs photos à la fois. Parfait pour nettoyer une photothèque encombrée et gérer rapidement de grandes vidéos.</p>
+                </div>
+            </section>
+
+            <section class="screenshots-section">
+                <div class="section-header">
+                    <h3>Captures d’écran</h3>
+                    <p>Découvrez SwipeSweep en action avec ces démonstrations</p>
+                </div>
+
+                <div class="screenshots-grid">
+                    <div class="screenshot-item">
+                        <img src="../pics/fr/delete.jpg" alt="Supprimer des photos avec un swipe à gauche" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>Supprimer</h4>
+                            <p>Swipe à gauche pour supprimer rapidement les photos inutiles</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <img src="../pics/fr/keep.jpg" alt="Garder des photos avec un swipe à droite" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>Garder</h4>
+                            <p>Swipe à droite pour conserver vos meilleurs souvenirs</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <img src="../pics/fr/fav_new.jpg" alt="Marquer des photos en favoris" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>Favoris</h4>
+                            <p>Swipe vers le haut pour marquer une photo en favori</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <img src="../pics/fr/check_execute.jpg" alt="Revoir et exécuter des opérations" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>Revoir & exécuter</h4>
+                            <p>Vérifiez vos choix avant d’appliquer les changements</p>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <img src="../pics/stat.jpg" alt="Voir des statistiques détaillées" loading="lazy" decoding="async">
+                        <div class="screenshot-caption">
+                            <h4>Statistiques</h4>
+                            <p>Suivez vos progrès et les économies de stockage</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="download-section">
+                <h3>Transformez votre photothèque en quelques minutes</h3>
+                <p>Idéal pour nettoyer une photothèque encombrée, libérer de l’espace, organiser les captures d’écran et gérer de grandes vidéos. Disponible exclusivement sur iOS.</p>
+                <div class="download-buttons">
+                    <a href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">
+                        <img src="../pics/appstore.png" alt="Télécharger sur l’App Store" style="height: 120px;">
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Produit</h4>
+                    <p><a href="https://apps.apple.com/app/id6749746145">Télécharger</a></p>
+                    <p><a href="./features.html">Fonctionnalités</a></p>
+                    <p><a href="./guide.html">Lire le guide utilisateur</a></p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Mentions légales & politiques</h4>
+                    <p><a href="../privacy_policy.html">Politique de confidentialité</a></p>
+                    <p><a href="../terms_of_service.html">Conditions d’utilisation</a></p>
+                    <p><a href="../SubscriptionTerms.html">Conditions d’abonnement</a></p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><a href="./faq.html">FAQ</a></p>
+                    <p><a href="./about.html">À propos</a></p>
+                    <p>swipesweepapp@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 SwipeSweep. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
