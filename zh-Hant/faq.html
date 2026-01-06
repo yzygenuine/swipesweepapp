@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeSweep FAQ - iOS 相片管理常見問題</title>
+    <meta name="description" content="查看 SwipeSweep 的常見問題解答：隱私與安全、功能介紹、以及 iOS 相片管理的疑難排解。">
+    <meta name="keywords" content="相片清理 FAQ, iOS 相片管理, SwipeSweep 支援, 刪除相片安全, 相片整理幫助">
+    <link rel="canonical" href="https://swipesweep.com/zh-Hant/faq.html">
+    <link rel="alternate" hreflang="en" href="https://swipesweep.com/faq.html">
+    <link rel="alternate" hreflang="es" href="https://swipesweep.com/es/faq.html">
+    <link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/faq.html">
+    <link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/faq.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/faq.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/faq.html">
+    <link rel="alternate" hreflang="x-default" href="https://swipesweep.com/faq.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .back-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .content h1 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+            margin: 30px 0 15px 0;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .content h2:first-of-type {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .content ul {
+            margin: 15px 0 15px 20px;
+            color: #4a5568;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .faq-item {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-item h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .contact-support {
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-support h2 {
+            color: #2d3748;
+            margin-bottom: 10px;
+            border: none;
+            padding: 0;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+        }
+
+        .faq-categories {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .faq-tab {
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .faq-tab.active,
+        .faq-tab:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .faq-section {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h1 {
+                font-size: 28px;
+            }
+
+            .content h2 {
+                font-size: 20px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .faq-categories {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="./index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="../pics/icon.png" alt="SwipeSweep 應用程式圖示">
+                    </div>
+                    <h1>SwipeSweep</h1>
+                </a>
+                <div class="header-actions">
+                    <a href="./index.html" class="back-link">← 首頁</a>
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">下載</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <h1>常見問題</h1>
+                <p class="last-updated">關於 SwipeSweep，你可能想知道的都在這裡</p>
+                
+                <div class="faq-categories">
+                    <button class="faq-tab active" data-category="general">一般</button>
+                    <button class="faq-tab" data-category="privacy">隱私與安全</button>
+                    <button class="faq-tab" data-category="features">功能</button>
+                    <button class="faq-tab" data-category="troubleshooting">疑難排解</button>
+                </div>
+                
+                <div class="faq-section" id="general">
+                    <h2>一般問題</h2>
+                    <article class="faq-item">
+                        <h3>SwipeSweep 是什麼？</h3>
+                        <p>SwipeSweep 是一款 iOS 相片管理應用程式，透過直覺的滑動手勢幫你快速整理與清理相簿。你可以把它想成「相片版 Tinder」：左滑刪除、右滑保留、上滑加入最愛。</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>我可以釋放多少儲存空間？</h3>
+                        <p>多數使用者通常可釋放 2–8GB，有些人甚至能回收 15GB 以上。實際效果取決於你的相簿大小、螢幕截圖/下載的累積，以及不需要或重複相片的比例。</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>SwipeSweep 是免費的嗎？</h3>
+                        <p>是的。SwipeSweep 可免費下載並使用，不需要訂閱，也沒有隱藏費用。</p>
+                    </article>
+                </div>
+                
+                <div class="faq-section" id="privacy">
+                    <h2>隱私與安全</h2>
+                    <article class="faq-item">
+                        <h3>我的資料安全嗎？</h3>
+                        <p>當然安全。SwipeSweep 會在裝置本機處理相片，相片不會離開你的 iPhone，我們也不會蒐集、儲存或傳輸任何個人資料或影像。</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>刪除的相片可以復原嗎？</h3>
+                        <p>可以。SwipeSweep 提供近期操作的復原/撤銷功能。另外，被刪除的相片會進入 iPhone 的「最近刪除」相簿，30 天內都能復原。</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>SwipeSweep 需要哪些權限？</h3>
+                        <p>SwipeSweep 只需要存取相簿/相片庫以進行整理，不會要求通訊錄、定位、相機等其他敏感權限。</p>
+                    </article>
+                </div>
+                
+                <div class="faq-section" id="features">
+                    <h2>功能</h2>
+                    <article class="faq-item">
+                        <h3>滑動手勢怎麼用？</h3>
+                        <p>很簡單：左滑刪除相片、右滑保留相片、上滑加入最愛。整個流程以快速與直覺為設計核心。</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>可以一次選多張相片嗎？</h3>
+                        <p>可以。SwipeSweep 支援批次操作，你可以多選相片後進行批次刪除、保留或加入最愛。</p>
+                    </article>
+                </div>
+                
+                <div class="faq-section" id="troubleshooting">
+                    <h2>疑難排解</h2>
+                    <article class="faq-item">
+                        <h3>App 沒有顯示我的相片</h3>
+                        <p>請確認你已授權 SwipeSweep 存取相片。前往「設定 &gt; 隱私權與安全性 &gt; 相片」，將 SwipeSweep 設為「所有相片」。</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>SwipeSweep 執行很慢</h3>
+                        <p>如果你的相簿非常大（10,000+ 相片），首次掃描可能需要時間。若效能問題持續，請嘗試重新啟動 App 或裝置。</p>
+                    </article>
+                    
+                    <article class="faq-item">
+                        <h3>我不小心刪除了重要相片</h3>
+                        <p>別擔心。先到 iPhone 的「最近刪除」相簿查看，相片會保留 30 天。若剛剛才刪除，也可以使用 SwipeSweep 的撤銷/復原功能。</p>
+                    </article>
+                </div>
+                
+                <section class="contact-support">
+                    <h2>還有問題？</h2>
+                    <p>找不到你需要的答案嗎？歡迎聯絡支援團隊：</p>
+                    <a href="mailto:support@swipesweep.com" class="contact-btn">聯絡支援</a>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script>
+        const tabs = document.querySelectorAll('.faq-tab');
+        const sections = document.querySelectorAll('.faq-section');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                const category = tab.getAttribute('data-category');
+                sections.forEach(section => {
+                    section.style.display = section.id === category ? 'block' : 'none';
+                });
+            });
+        });
+        sections.forEach((section, index) => {
+            section.style.display = index === 0 ? 'block' : 'none';
+        });
+    </script>
+</body>
+</html>
+

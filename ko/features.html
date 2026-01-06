@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeSweep 기능 - iOS 사진 관리 완전 솔루션</title>
+    <meta name="description" content="SwipeSweep의 모든 기능을 확인하세요: 직관적인 스와이프 조작, 스마트 카테고리, 일괄 작업, 개인정보 보호, 상세 통계까지 iOS 사진 관리를 위한 완전한 도구입니다.">
+    <meta name="keywords" content="사진 관리 기능, iOS 사진 정리, 스와이프 제스처, 일괄 작업, 사진 통계, 개인정보 보호">
+    <link rel="canonical" href="https://swipesweep.com/ko/features.html">
+    <link rel="alternate" hreflang="en" href="https://swipesweep.com/features.html">
+    <link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html">
+    <link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html">
+    <link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html">
+    <link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .back-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .content h1 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+            margin: 30px 0 15px 0;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .content h2:first-of-type {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .content ul {
+            margin: 15px 0 15px 20px;
+            color: #4a5568;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .feature-item {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .feature-item:last-child {
+            border-bottom: none;
+        }
+
+        .feature-content {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .feature-content img {
+            width: 200px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .feature-text {
+            flex: 1;
+        }
+
+        .feature-text h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .comparison table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .comparison th,
+        .comparison td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .comparison th {
+            background: rgba(102, 126, 234, 0.1);
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h1 {
+                font-size: 28px;
+            }
+
+            .content h2 {
+                font-size: 20px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .feature-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .feature-content img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="./index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="../pics/icon.png" alt="SwipeSweep 앱 아이콘">
+                    </div>
+                    <h1>SwipeSweep</h1>
+                </a>
+                <div class="header-actions">
+                    <a href="./index.html" class="back-link">← 홈</a>
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">다운로드</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <h1>완벽한 사진 관리 기능</h1>
+                <p class="last-updated">SwipeSweep이 iOS 사진 정리를 어떻게 바꾸는지 확인하세요</p>
+                
+                <article class="feature-item">
+                    <h2>직관적인 스와이프 조작</h2>
+                    <div class="feature-content">
+                        <img src="../pics/ko/delete.jpg" alt="왼쪽으로 스와이프하여 사진 삭제">
+                        <div class="feature-text">
+                            <h3>틴더처럼 넘기며 확인</h3>
+                            <ul>
+                                <li>왼쪽으로 스와이프해 원치 않는 사진 삭제</li>
+                                <li>오른쪽으로 스와이프해 소중한 사진 유지</li>
+                                <li>위로 스와이프해 즐겨찾기 표시</li>
+                                <li>빠르고 부드러운 사진 검토</li>
+                            </ul>
+                            <p>수백 장의 사진을 최소한의 노력으로 빠르게 정리하기에 적합합니다.</p>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="feature-item">
+                    <h2>스마트 사진 카테고리</h2>
+                    <div class="feature-content">
+                        <img src="../pics/ko/keep.jpg" alt="스마트 사진 분류">
+                        <div class="feature-text">
+                            <h3>자동 정리</h3>
+                            <ul>
+                                <li>최근 사진(최근 5일)</li>
+                                <li>대용량 파일(동영상 및 고해상도 이미지)</li>
+                                <li>스크린샷 및 다운로드</li>
+                                <li>랜덤 사진 그룹</li>
+                            </ul>
+                            <p>스마트 분류로 정말 중요한 사진에 집중할 수 있습니다.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-item">
+                    <h2>일괄 작업과 통계</h2>
+                    <div class="feature-content">
+                        <img src="../pics/stat.jpg" alt="통계 및 일괄 작업">
+                        <div class="feature-text">
+                            <h3>강력한 관리 도구</h3>
+                            <ul>
+                                <li>여러 장 선택 후 대량 작업 수행</li>
+                                <li>저장 공간 사용량 상세 통계</li>
+                                <li>진행 상황 및 정리 기록</li>
+                                <li>실수 방지를 위한 실행 취소</li>
+                            </ul>
+                            <p>사진 보관함을 완전히 제어하고 싶은 사용자에게 적합합니다.</p>
+                        </div>
+                    </div>
+                </article>
+                
+                <section class="comparison">
+                    <h2>왜 SwipeSweep인가요?</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>기능</th>
+                                <th>SwipeSweep</th>
+                                <th>다른 앱</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>제스처</td>
+                                <td>✅ 직관적인 틴더형 UI</td>
+                                <td>❌ 복잡한 버튼 중심 UI</td>
+                            </tr>
+                            <tr>
+                                <td>개인정보</td>
+                                <td>✅ 100% 로컬 처리</td>
+                                <td>❌ 클라우드 업로드 필요</td>
+                            </tr>
+                            <tr>
+                                <td>속도</td>
+                                <td>✅ 매우 빠른 사진 검토</td>
+                                <td>❌ 느리고 번거로운 작업 흐름</td>
+                            </tr>
+                            <tr>
+                                <td>비용</td>
+                                <td>✅ 완전 무료</td>
+                                <td>❌ 구독 필요</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

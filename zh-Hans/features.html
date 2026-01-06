@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwipeSweep 功能 - 完整的 iOS 照片管理方案</title>
+    <meta name="description" content="探索 SwipeSweep 的核心功能：直观滑动操作、智能分类、批量处理、隐私保护与详细统计，让 iOS 照片管理更轻松。">
+    <meta name="keywords" content="照片管理功能, iOS 相册清理, 滑动手势, 批量操作, 照片统计, 隐私照片应用">
+    <link rel="canonical" href="https://swipesweep.com/zh-Hans/features.html">
+    <link rel="alternate" hreflang="en" href="https://swipesweep.com/features.html">
+    <link rel="alternate" hreflang="es" href="https://swipesweep.com/es/features.html">
+    <link rel="alternate" hreflang="pt" href="https://swipesweep.com/pt/features.html">
+    <link rel="alternate" hreflang="ko" href="https://swipesweep.com/ko/features.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://swipesweep.com/zh-Hans/features.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://swipesweep.com/zh-Hant/features.html">
+    <link rel="alternate" hreflang="x-default" href="https://swipesweep.com/features.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .back-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border-radius: 12px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .header-download:hover {
+            background: #333;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .content h1 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d3748;
+            margin: 30px 0 15px 0;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .content h2:first-of-type {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .content ul {
+            margin: 15px 0 15px 20px;
+            color: #4a5568;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .feature-item {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .feature-item:last-child {
+            border-bottom: none;
+        }
+
+        .feature-content {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .feature-content img {
+            width: 200px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .feature-text {
+            flex: 1;
+        }
+
+        .feature-text h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .comparison table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .comparison th,
+        .comparison td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .comparison th {
+            background: rgba(102, 126, 234, 0.1);
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 30px 20px;
+            }
+
+            .content h1 {
+                font-size: 28px;
+            }
+
+            .content h2 {
+                font-size: 20px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .feature-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .feature-content img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="./index.html" class="logo">
+                    <div class="app-icon">
+                        <img src="../pics/icon.png" alt="SwipeSweep 应用图标">
+                    </div>
+                    <h1>SwipeSweep</h1>
+                </a>
+                <div class="header-actions">
+                    <a href="./index.html" class="back-link">← 首页</a>
+                    <a class="header-download" href="https://apps.apple.com/app/id6749746145" target="_blank" rel="noopener">下载</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <h1>完整照片管理功能</h1>
+                <p class="last-updated">看看 SwipeSweep 如何革新 iOS 照片整理体验</p>
+                
+                <article class="feature-item">
+                    <h2>直观滑动控制</h2>
+                    <div class="feature-content">
+                        <img src="../pics/zh-Hans/delete.jpg" alt="左滑删除照片">
+                        <div class="feature-text">
+                            <h3>Tinder 式照片浏览</h3>
+                            <ul>
+                                <li>左滑删除不需要的照片</li>
+                                <li>右滑保留珍贵回忆</li>
+                                <li>上滑标记为收藏</li>
+                                <li>极速完成照片筛选</li>
+                            </ul>
+                            <p>特别适合快速清理数百张照片，省时省力。</p>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="feature-item">
+                    <h2>智能照片分类</h2>
+                    <div class="feature-content">
+                        <img src="../pics/zh-Hans/keep.jpg" alt="智能照片分类">
+                        <div class="feature-text">
+                            <h3>自动整理</h3>
+                            <ul>
+                                <li>最近照片（近 5 天）</li>
+                                <li>大文件（视频与高分辨率图片）</li>
+                                <li>截图与下载</li>
+                                <li>随机照片分组</li>
+                            </ul>
+                            <p>智能分类让你更专注于真正需要处理的照片。</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="feature-item">
+                    <h2>批量操作与统计</h2>
+                    <div class="feature-content">
+                        <img src="../pics/zh-Hans/stat.jpg" alt="统计与批量操作">
+                        <div class="feature-text">
+                            <h3>强大的管理工具</h3>
+                            <ul>
+                                <li>多选照片进行批量操作</li>
+                                <li>详细的存储占用统计</li>
+                                <li>清理进度与历史记录</li>
+                                <li>误删可撤销</li>
+                            </ul>
+                            <p>为追求更高效率和更强掌控感的用户而设计。</p>
+                        </div>
+                    </div>
+                </article>
+                
+                <section class="comparison">
+                    <h2>为什么选择 SwipeSweep？</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>对比项</th>
+                                <th>SwipeSweep</th>
+                                <th>其他应用</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>交互方式</td>
+                                <td>✅ 直观的滑动操作</td>
+                                <td>❌ 复杂的按钮与流程</td>
+                            </tr>
+                            <tr>
+                                <td>隐私</td>
+                                <td>✅ 100% 本机处理</td>
+                                <td>❌ 需要云端上传</td>
+                            </tr>
+                            <tr>
+                                <td>速度</td>
+                                <td>✅ 极速照片筛选</td>
+                                <td>❌ 操作繁琐、效率低</td>
+                            </tr>
+                            <tr>
+                                <td>费用</td>
+                                <td>✅ 完全免费</td>
+                                <td>❌ 往往需要订阅</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
